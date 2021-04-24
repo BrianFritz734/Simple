@@ -1,0 +1,15 @@
+val=input('Enter a number')
+num=int(val)
+s=('%s is not a prime number.'%(num))
+if num%2==0:
+    print(s)
+elif num%3==0:
+    print(s)
+elif num%5==0:
+    print(s)
+elif num%7==0:
+    print(s)
+elif num%11==0:
+    print(s)
+else:
+    print('%s is a prime number.'%(num))
