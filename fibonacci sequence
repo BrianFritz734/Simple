@@ -1,0 +1,9 @@
+val=input('Enter a number')
+num=int(val)
+seq=[]
+for x in range(0,num):
+    if x<2:
+        seq.append(x)
+    else:
+        seq.append(seq[x-1]+seq[x-2])
+print(seq)
